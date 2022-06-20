@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "pipeline": "npx cypress run --spec 'cypress/integration/*.spec.js'"
+    "pipeline": "npx cypress run --spec 'cypress/integration/beforeLogin/basePage.spec.js'"
   },
   "repository": {
     "type": "git",
